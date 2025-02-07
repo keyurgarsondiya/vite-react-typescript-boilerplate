@@ -6,6 +6,7 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
   server: {
+    // Change the port to run app on desired localhost URL
     port: 3000
   }
 })
